@@ -1,0 +1,74 @@
+.header {
+    width: 99%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.title {
+    margin-left: 5rem;
+}
+
+.btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+.btn button {
+    background-color: rgb(105, 195, 165);
+    color: #fff;
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.container {
+    margin: auto;
+    margin-top: 2rem;
+    height: 45rem;
+    width: 75rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.question, .answer {
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.answer {
+    justify-content: center;
+}
+
+.answer button {
+    background-color: rgb(105, 195, 165);
+    color: #fff;
+    width: 30rem;
+    height: 3rem;
+    margin: .5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.answer div:nth-child(1) {
+    font-size: x-large;
+    margin-left: 4rem;
+    margin-right: auto;
+}
+
+.answer button:focus {
+    color: black;
+}
